@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    background: linear-gradient(#A8DADC 0%, 75%, #E63946 100%)
+}
+
+h1, h2 {
+    text-shadow: 0 0 1px black;
+    color: #F1FAEE;
+    background: #A8DADC;
+    padding: 12px 20px;
+    border-radius: 12px;
+    max-width: fit-content;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url("images/Cologne-Eric-Weber-Unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 200px;
+}
+
+.activities-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.first-column, .second-column, .third-column {
+    width: 400px;
+    margin: 40px 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    max-width: 500px;
+    background: #457B9D;
+    padding: 14px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.my-person {
+    border: dotted #1D3557 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.italic {
+    font-style: italic;
+}
