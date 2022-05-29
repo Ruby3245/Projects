@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+h4 {
+    margin: 45px 0 5px;
+}
+
+p {
+    color: #D2D2D2;
+}
+
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    color: antiquewhite;
+}
+
+.Input {
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+.results {
+    background-color: #1F2937;
+    padding: 60px;
+}
