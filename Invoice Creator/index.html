@@ -1,0 +1,76 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Invoice Creator</h1>
+            <p>Thanks for Choosing GoodCorp, LLC!</p>
+        </header>
+        <main>
+            <div class="service-selection">
+                <button class="service-btn" id="car-wash">Wash Car: $10</button>
+                <button class="service-btn" id="mow-lawn">Mow Lawn: $20</button>
+                <button class="service-btn" id="pull-weeds">Pull Weeds: $30</button>
+            </div>
+            <div class="desc">
+                <p>TASK</p>
+                <p>TOTAL</p>
+            </div>
+            
+            <div id="selected-services">
+                
+                <!-- Created by Java when user interacts
+                
+                <div class="service">
+                    <div class="service-left">
+                        <p>Placeholder text</p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                    <p>$10</p>
+                </div>
+                <div class="service">
+                    <div class="service-left">
+                        <p>Placeholder text</p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                    <p>$10</p>
+                </div>
+                <div class="service">
+                    <div class="service-left">
+                        <p>Placeholder text</p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                    <p>$10</p>
+                </div> -->
+                
+            </div>
+            <div class="border"></div>
+            <div class="ending">
+                <div id="notes">
+                    <h5>NOTES</h5>
+                    
+                    <!-- Created by Java when user interacts
+                    <p>We accept cash, credit card, or PayPal</p> -->
+                </div>
+                
+                
+                <div class="total">
+                    <h5>TOTAL AMOUNT</h5>
+                    <h2>
+                        $
+                        <span id="sum">0</span>
+                        </h2>
+                </div>
+            </div>
+            <button id="clear-btn">
+                <img src="images/mail-icon.png" alt="mail icon">
+                Send Invoice
+            </button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

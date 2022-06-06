@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+h1, h2 {
+    font-size: 40px;
+    color: white;
+}
+
+
+
+header {
+    background: #3A69D2;
+    padding: 50px;
+    font-size: 16px;
+}
+
+.service-selection {
+    display: flex;
+    justify-content: space-around;
+    margin: 41px 0 43px;
+    color: #D5D4D8;
+}
+
+.service-btn {
+    background: #D1D4F4;
+    color: #4A4E74;
+    padding: 14px 23px;
+    border-radius: 8px;
+    border: solid 2px white;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 31px;
+    font-size: 16px;
+    color: #D5D4D8;
+}
+
+#selected-services {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 31px;
+}
+
+.service {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.service-left {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.remove-btn {
+    width: fit-content;
+    height: 20px;
+    border: none;
+    background: transparent;
+    color: white;
+    line-height: px;
+    font-weight: 100;
+    font-size: 2px;
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #D5D4D8;
+}
+
+.remove-btn:hover {
+    text-decoration: underline;
+}
+
+#clear-btn {
+    background: #3A69D2;
+    padding: 9px 17px;
+    width: 90%;
+    border-radius: 7px;
+    margin: 0 auto 50px;
+}
+
+.border {
+   height: 0px;
+   width: 70%; 
+   border: solid 1px #C3C6DB;
+   margin: 29px auto 11px;
+}
+
+.ending {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #D5D4D8;
+    margin: 0 auto 50px;
+}
+
+#notes {
+    text-align: left;
+    margin-left: 31px;
+}
+
+.total {
+    text-align: right;
+    margin-right: 31px
+}
